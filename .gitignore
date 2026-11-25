@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.keys/
+
+# Moved Python and ingestion code
+**/.env*
+!**/.env.example
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/venv/
+*.pyc
+/reviews/db/*.db
+/reviews/db/*.sqlite3*
+/cron/**/bin/
+/cron/**/obj/
+/cron/**/appsettings*.json

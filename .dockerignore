@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.env
+.keys
+**/.env*
+**/.venv
+**/venv
+**/__pycache__
+**/.pytest_cache
+**/*.pyc
+reviews/db/*.db
+reviews/db/*.sqlite3*
+cron
+legacy
